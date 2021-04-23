@@ -1,0 +1,17 @@
+{
+    "name": "emoji_replacer",
+    "version": "1.0",
+    "content_scripts": [{
+            "matches": ["<all_urls>"],
+            "js": ["main.js"]
+    }],
+    "icons": {
+        "16":"icon16.png",
+        "48":"icon48.png"
+    },
+    "browser_action": {
+        "default_icon": "icon16.png",
+        "default_title": "emoji"
+    },
+    "manifest_version": 2
+}
